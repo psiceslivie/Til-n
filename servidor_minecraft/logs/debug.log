@@ -1439,3 +1439,8 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [23May2025 18:35:59.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [Take Aim]
 [23May2025 18:36:06.244] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [23May2025 18:36:06.250] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23May2025 18:37:09.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [We Need to Go Deeper]
+[23May2025 18:41:06.245] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23May2025 18:41:06.251] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23May2025 18:46:06.241] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23May2025 18:46:06.246] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
