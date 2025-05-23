@@ -342,3 +342,8 @@
 [23May2025 18:19:42.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 has made the advancement [Ice Bucket Challenge]
 [23May2025 18:19:46.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [Ice Bucket Challenge]
 [23May2025 18:20:28.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [Who is Cutting Onions?]
+[23May2025 18:28:50.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 has made the advancement [We Need to Go Deeper]
+[23May2025 18:28:51.514] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Capidrei20 moved too quickly! 8.60351395132841,1.8322033533667508,-5.264403549958686
+[23May2025 18:28:51.535] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3027ms or 60 ticks behind
+[23May2025 18:29:51.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 was slain by Piglin
+[23May2025 18:35:59.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [Take Aim]
