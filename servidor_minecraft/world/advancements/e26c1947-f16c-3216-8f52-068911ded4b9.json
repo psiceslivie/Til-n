@@ -21,6 +21,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-05-23 17:25:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2025-05-23 16:39:27 +0000"
@@ -45,6 +51,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-05-23 17:25:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_chestplate": "2025-05-23 16:24:20 +0000"
@@ -60,6 +72,12 @@
   "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-05-23 17:10:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2025-05-23 17:25:25 +0000"
     },
     "done": true
   },
@@ -93,9 +111,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dye_red_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-05-23 17:21:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_button": {
     "criteria": {
       "has_planks": "2025-05-23 16:04:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-05-23 17:21:08 +0000"
     },
     "done": true
   },
@@ -105,9 +135,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_red_dye": "2025-05-23 17:21:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken": {
     "criteria": {
       "has_chicken": "2025-05-23 17:07:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_yellow_dye": "2025-05-23 17:20:25 +0000"
     },
     "done": true
   },
@@ -141,6 +183,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-05-23 17:24:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2025-05-23 17:07:15 +0000"
@@ -159,6 +207,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-05-23 17:25:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato_from_smoking": {
     "criteria": {
       "has_potato": "2025-05-23 16:54:33 +0000"
@@ -174,6 +228,12 @@
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2025-05-23 16:04:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2025-05-23 17:21:08 +0000"
     },
     "done": true
   },
@@ -213,6 +273,30 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-05-23 17:25:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_red_dye": "2025-05-23 17:21:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_candle": {
+    "criteria": {
+      "has_yellow_dye": "2025-05-23 17:20:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-05-23 17:20:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2025-05-23 16:53:16 +0000"
@@ -225,9 +309,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-05-23 17:24:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
       "has_mutton": "2025-05-23 17:00:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_yellow_dye": "2025-05-23 17:20:25 +0000"
     },
     "done": true
   },
@@ -261,6 +357,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-05-23 17:20:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2025-05-23 17:12:53 +0000"
@@ -285,10 +387,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-05-23 17:24:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-05-23 16:43:53 +0000",
       "minecraft:skeleton": "2025-05-23 16:37:57 +0000",
+      "minecraft:spider": "2025-05-23 17:20:09 +0000",
       "minecraft:zombie": "2025-05-23 16:54:32 +0000"
     },
     "done": false
@@ -305,9 +414,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_red_dye": "2025-05-23 17:21:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
       "has_porkchop": "2025-05-23 16:57:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2025-05-23 17:21:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-05-23 17:20:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-05-23 17:19:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-05-23 17:19:18 +0000"
     },
     "done": true
   },
@@ -323,6 +462,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-05-23 17:24:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_fence_gate": {
     "criteria": {
       "has_planks": "2025-05-23 16:04:57 +0000"
@@ -332,6 +477,12 @@
   "minecraft:recipes/redstone/stone_button": {
     "criteria": {
       "has_stone": "2025-05-23 17:10:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2025-05-23 17:24:29 +0000"
     },
     "done": true
   },
@@ -383,6 +534,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-05-23 17:25:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-05-23 17:21:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2025-05-23 17:00:46 +0000"
@@ -392,6 +555,12 @@
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2025-05-23 16:04:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-05-23 17:24:29 +0000"
     },
     "done": true
   },
@@ -421,6 +590,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dye_yellow_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-05-23 17:20:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-05-23 17:25:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_rose_red": "2025-05-23 17:21:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2025-05-23 16:05:32 +0000"
@@ -445,9 +632,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-05-23 17:24:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/ol_betsy": {
     "criteria": {
       "shot_crossbow": "2025-05-23 16:45:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2025-05-23 17:25:25 +0000"
     },
     "done": true
   },
@@ -478,6 +677,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2025-05-23 17:10:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2025-05-23 17:25:25 +0000"
     },
     "done": true
   },
