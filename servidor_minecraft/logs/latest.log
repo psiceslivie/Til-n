@@ -193,3 +193,10 @@
 [23May2025 16:50:32.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported christopher0007 to PiscesLivie]
 [23May2025 16:52:48.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> saludos para mia
 [23May2025 16:53:16.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Take Aim]
+[23May2025 16:58:08.918] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@c2a6a35[id=<null>,name=Capidrei20,properties={},legacy=false] (/127.247.143.48:51365) lost connection: Disconnected
+[23May2025 16:58:30.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> OLO
+[23May2025 16:58:35.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> olo chat
+[23May2025 17:03:53.328] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Capidrei20[/127.247.143.48:50487] logged in with entity id 24925 at (90.5, 69.0, -109.5)
+[23May2025 17:03:53.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 joined the game
+[23May2025 17:04:41.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Capidrei20> oda
+[23May2025 17:04:45.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> ola
