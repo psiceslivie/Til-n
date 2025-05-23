@@ -710,3 +710,7 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [23May2025 15:01:32.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 joined the game
 [23May2025 15:03:46.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 has made the advancement [Stone Age]
 [23May2025 15:04:32.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 has made the advancement [Getting an Upgrade]
+[23May2025 15:06:03.233] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23May2025 15:06:03.240] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23May2025 15:11:03.237] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23May2025 15:11:03.243] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
