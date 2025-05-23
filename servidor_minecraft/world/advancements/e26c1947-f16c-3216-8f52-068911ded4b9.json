@@ -31,6 +31,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-05-23 16:54:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_the_recipe": "2025-05-23 16:05:29 +0000"
@@ -73,6 +79,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-05-23 16:54:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-05-23 16:54:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2025-05-23 16:04:57 +0000"
@@ -88,6 +106,12 @@
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2025-05-23 16:39:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-05-23 16:53:16 +0000"
     },
     "done": true
   },
@@ -130,7 +154,8 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-05-23 16:43:53 +0000",
-      "minecraft:skeleton": "2025-05-23 16:37:57 +0000"
+      "minecraft:skeleton": "2025-05-23 16:37:57 +0000",
+      "minecraft:zombie": "2025-05-23 16:54:32 +0000"
     },
     "done": false
   },
@@ -185,7 +210,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-05-23 16:05:32 +0000",
-      "cooked_mutton": "2025-05-23 16:26:00 +0000"
+      "cooked_mutton": "2025-05-23 16:26:00 +0000",
+      "potato": "2025-05-23 16:55:44 +0000"
     },
     "done": false
   },

@@ -924,3 +924,15 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [23May2025 16:45:14.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Ol' Betsy]
 [23May2025 16:46:03.233] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [23May2025 16:46:03.239] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23May2025 16:47:33.085] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=130, y=67, z=-271} BlockPos{x=130, y=67, z=-270}
+[23May2025 16:47:34.540] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=130, y=68, z=-269} BlockPos{x=130, y=68, z=-268}
+[23May2025 16:50:05.685] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=74, y=75, z=-142} BlockPos{x=73, y=74, z=-143}
+[23May2025 16:50:05.736] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=74, y=75, z=-142} BlockPos{x=73, y=74, z=-143}
+[23May2025 16:50:06.485] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=77, y=74, z=-144} BlockPos{x=78, y=75, z=-143}
+[23May2025 16:50:32.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported christopher0007 to PiscesLivie]
+[23May2025 16:51:03.234] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23May2025 16:51:03.240] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23May2025 16:52:48.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> saludos para mia
+[23May2025 16:53:16.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Take Aim]
+[23May2025 16:56:03.234] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23May2025 16:56:03.240] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
