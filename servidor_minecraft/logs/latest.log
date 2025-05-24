@@ -1,350 +1,72 @@
-[23May2025 14:55:15.828] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[23May2025 14:55:15.832] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[23May2025 14:55:15.919] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/Til-n/servidor_minecraft/config/fml.toml is not correct. Correcting
-[23May2025 14:55:15.921] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
-[23May2025 14:55:15.921] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
-[23May2025 14:55:15.922] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
-[23May2025 14:55:15.922] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
-[23May2025 14:55:15.939] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[23May2025 14:55:15.996] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Til-n/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[23May2025 14:55:16.217] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Til-n/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[23May2025 14:55:16.219] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Til-n/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[23May2025 14:55:16.220] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Til-n/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[23May2025 14:55:16.221] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Til-n/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[23May2025 14:55:16.308] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[23May2025 14:55:17.735] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[23May2025 14:55:23.659] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[23May2025 14:55:23.662] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[23May2025 14:55:24.278] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[23May2025 14:55:24.743] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[23May2025 14:55:25.812] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23May2025 14:55:25.858] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Til-n/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
-[23May2025 14:55:25.859] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Til-n/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
-[23May2025 14:55:27.710] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[23May2025 14:55:27.852] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[23May2025 14:55:28.432] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[23May2025 14:55:28.433] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[23May2025 14:55:28.433] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[23May2025 14:55:28.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[23May2025 14:55:28.606] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[23May2025 14:55:28.637] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[23May2025 14:55:28.729] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23May2025 14:55:28.729] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[23May2025 14:55:28.730] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23May2025 14:55:28.730] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[23May2025 14:55:28.762] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[23May2025 14:55:28.764] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23May2025 14:55:28.764] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[23May2025 14:55:28.764] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[23May2025 14:55:28.765] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[23May2025 14:55:28.765] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[23May2025 14:55:28.765] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[23May2025 14:55:28.766] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[23May2025 14:55:28.766] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[23May2025 14:55:28.802] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[23May2025 14:55:35.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[23May2025 14:55:36.860] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23May2025 14:55:36.864] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23May2025 14:55:36.866] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23May2025 14:55:37.284] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23May2025 14:55:37.739] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23May2025 14:55:38.354] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23May2025 14:55:38.755] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23May2025 14:55:39.263] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[23May2025 14:55:39.770] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[23May2025 14:55:40.242] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[23May2025 14:55:40.767] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[23May2025 14:55:41.248] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[23May2025 14:55:41.740] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[23May2025 14:55:42.238] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[23May2025 14:55:42.746] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[23May2025 14:55:43.240] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[23May2025 14:55:43.739] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[23May2025 14:55:44.241] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[23May2025 14:55:44.739] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[23May2025 14:55:45.266] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[23May2025 14:55:45.738] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[23May2025 14:55:46.239] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[23May2025 14:55:46.744] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[23May2025 14:55:47.262] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[23May2025 14:55:47.745] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[23May2025 14:55:48.247] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
-[23May2025 14:55:48.744] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
-[23May2025 14:55:49.243] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[23May2025 14:55:49.743] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[23May2025 14:55:50.242] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
-[23May2025 14:55:50.749] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
-[23May2025 14:55:51.242] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
-[23May2025 14:55:51.743] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[23May2025 14:55:52.238] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
-[23May2025 14:55:52.747] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
-[23May2025 14:55:53.244] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
-[23May2025 14:55:53.744] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
-[23May2025 14:55:54.245] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
-[23May2025 14:55:54.741] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[23May2025 14:55:55.243] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
-[23May2025 14:55:55.750] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
-[23May2025 14:55:56.238] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
-[23May2025 14:55:56.769] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
-[23May2025 14:55:57.242] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[23May2025 14:55:57.760] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
-[23May2025 14:55:58.258] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[23May2025 14:55:58.739] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
-[23May2025 14:55:59.240] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
-[23May2025 14:55:59.742] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
-[23May2025 14:56:00.241] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[23May2025 14:56:00.741] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
-[23May2025 14:56:01.238] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
-[23May2025 14:56:01.738] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
-[23May2025 14:56:02.239] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
-[23May2025 14:56:02.757] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[23May2025 14:56:03.236] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 27498 ms
-[23May2025 14:56:03.236] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (34.484s)! For help, type "help"
-[23May2025 14:56:03.258] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[23May2025 14:57:09.365] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3e6130bb[id=<null>,name=PiscesLivie,properties={},legacy=false] (/127.38.242.173:50095) lost connection: Disconnected
-[23May2025 14:58:18.446] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PiscesLivie[/127.38.242.173:43319] logged in with entity id 362 at (98.5, 79.0, -116.5)
-[23May2025 14:58:18.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie joined the game
-[23May2025 14:59:59.115] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PiscesLivie lost connection: Disconnected
-[23May2025 14:59:59.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie left the game
-[23May2025 15:01:32.563] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: christopher0007[/127.203.161.117:47029] logged in with entity id 978 at (94.5, 74.0, -104.5)
-[23May2025 15:01:32.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 joined the game
-[23May2025 15:03:46.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 has made the advancement [Stone Age]
-[23May2025 15:04:32.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 has made the advancement [Getting an Upgrade]
-[23May2025 15:16:54.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 has made the advancement [Monster Hunter]
-[23May2025 15:19:05.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 was blown up by Creeper
-[23May2025 15:31:37.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 has made the advancement [Acquire Hardware]
-[23May2025 15:31:48.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 has made the advancement [Suit Up]
-[23May2025 15:33:27.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 has made the advancement [Isn't It Iron Pick]
-[23May2025 15:57:40.722] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PiscesLivie[/127.38.242.173:56259] logged in with entity id 10258 at (79.49245856134934, 72.0, -117.39079346880334)
-[23May2025 15:57:40.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie joined the game
-[23May2025 15:57:58.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> onde tas
-[23May2025 15:58:05.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> aqui
-[23May2025 15:58:10.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> chau faty
-[23May2025 15:58:28.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> chau faty
-[23May2025 15:58:47.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> chau faty
-[23May2025 15:59:04.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> pasa cordenadas
-[23May2025 15:59:08.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> ti
-[23May2025 15:59:54.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> onde tas
-[23May2025 16:00:02.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> aqui
-[23May2025 16:00:13.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> voy
-[23May2025 16:00:40.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made PiscesLivie a server operator
-[23May2025 16:00:46.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to christopher0007]
-[23May2025 16:00:47.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> hazte tp
-[23May2025 16:00:57.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> sigeme
-[23May2025 16:01:27.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> mi humilde casita
-[23May2025 16:01:51.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> nooo la ´politizaa
-[23May2025 16:06:13.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> sigeme
-[23May2025 16:07:39.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> no tengo lana
-[23May2025 16:09:07.796] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=241, y=65, z=-251} BlockPos{x=242, y=65, z=-250}
-[23May2025 16:09:07.832] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=241, y=65, z=-251} BlockPos{x=242, y=65, z=-250}
-[23May2025 16:11:55.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> quien cristian :/
-[23May2025 16:13:44.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> y ahora tilin
-[23May2025 16:14:58.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 has made the advancement [A Seedy Place]
-[23May2025 16:15:25.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie was slain by Zombie
-[23May2025 16:15:31.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> xd
-[23May2025 16:17:14.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> vas a reiniciar el server ?
-[23May2025 16:19:36.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to christopher0007]
-[23May2025 16:19:44.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> olo
-[23May2025 16:20:27.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> yo q bb
-[23May2025 16:20:57.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> huevitos
-[23May2025 16:22:37.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie was slain by christopher0007
-[23May2025 16:22:39.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to christopher0007]
-[23May2025 16:22:51.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie was slain by christopher0007
-[23May2025 16:22:55.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to christopher0007]
-[23May2025 16:23:32.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie was slain by christopher0007
-[23May2025 16:23:47.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> a tu casa krac
-[23May2025 16:23:48.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to christopher0007]
-[23May2025 16:24:10.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> ya no tengo poca vida
-[23May2025 16:24:15.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Creative Mode]
-[23May2025 16:24:20.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Suit Up]
-[23May2025 16:24:31.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> q jaker
-[23May2025 16:24:42.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> me das mod
-[23May2025 16:24:45.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Survival Mode]
-[23May2025 16:24:53.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> dame comida
-[23May2025 16:24:57.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Creative Mode]
-[23May2025 16:25:10.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Survival Mode]
-[23May2025 16:25:56.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> mi espada es de piedra
-[23May2025 16:26:05.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Creative Mode]
-[23May2025 16:26:09.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Survival Mode]
-[23May2025 16:26:40.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> 1
-[23May2025 16:26:41.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> 2
-[23May2025 16:26:43.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> 3
-[23May2025 16:27:12.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 was slain by PiscesLivie
-[23May2025 16:27:16.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> gg
-[23May2025 16:27:38.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> hazme tp
-[23May2025 16:27:52.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported christopher0007 to PiscesLivie]
-[23May2025 16:28:02.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> no soporte
-[23May2025 16:29:46.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> si un povo
-[23May2025 16:30:20.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> lo tralaleritos dicen tralala
-[23May2025 16:31:25.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> ser amiguis
-[23May2025 16:32:16.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> NO PILIEN
-[23May2025 16:32:41.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> la primera ley de newton
-[23May2025 16:33:11.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> quien cristian
-[23May2025 16:34:04.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> te das cuenta q la casita es simetrica
-[23May2025 16:37:05.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> va
-[23May2025 16:37:57.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Monster Hunter]
-[23May2025 16:43:53.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Voluntary Exile]
-[23May2025 16:45:14.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Ol' Betsy]
-[23May2025 16:47:33.085] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=130, y=67, z=-271} BlockPos{x=130, y=67, z=-270}
-[23May2025 16:47:34.540] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=130, y=68, z=-269} BlockPos{x=130, y=68, z=-268}
-[23May2025 16:50:05.685] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=74, y=75, z=-142} BlockPos{x=73, y=74, z=-143}
-[23May2025 16:50:05.736] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=74, y=75, z=-142} BlockPos{x=73, y=74, z=-143}
-[23May2025 16:50:06.485] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=77, y=74, z=-144} BlockPos{x=78, y=75, z=-143}
-[23May2025 16:50:32.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported christopher0007 to PiscesLivie]
-[23May2025 16:52:48.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> saludos para mia
-[23May2025 16:53:16.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Take Aim]
-[23May2025 16:58:08.918] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@c2a6a35[id=<null>,name=Capidrei20,properties={},legacy=false] (/127.247.143.48:51365) lost connection: Disconnected
-[23May2025 16:58:30.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> OLO
-[23May2025 16:58:35.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> olo chat
-[23May2025 17:03:53.328] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Capidrei20[/127.247.143.48:50487] logged in with entity id 24925 at (90.5, 69.0, -109.5)
-[23May2025 17:03:53.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 joined the game
-[23May2025 17:04:41.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Capidrei20> oda
-[23May2025 17:04:45.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> ola
-[23May2025 17:06:20.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported Capidrei20 to PiscesLivie]
-[23May2025 17:06:52.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [Stone Age]
-[23May2025 17:07:32.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 has made the advancement [Sweet Dreams]
-[23May2025 17:07:42.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> riko
-[23May2025 17:07:46.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set the time to 1000]
-[23May2025 17:08:21.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [Getting an Upgrade]
-[23May2025 17:09:07.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> chau
-[23May2025 17:09:14.623] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: christopher0007 lost connection: Disconnected
-[23May2025 17:09:14.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 left the game
-[23May2025 17:10:23.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [Monster Hunter]
-[23May2025 17:14:26.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 was shot by Skeleton
-[23May2025 17:20:32.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [Sweet Dreams]
-[23May2025 17:20:34.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Sweet Dreams]
-[23May2025 17:20:46.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [Acquire Hardware]
-[23May2025 17:22:28.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [Isn't It Iron Pick]
-[23May2025 17:23:41.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Creative Mode]
-[23May2025 17:23:45.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [Suit Up]
-[23May2025 17:23:55.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Survival Mode]
-[23May2025 17:26:54.404] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: christopher0007[/127.203.161.117:43467] logged in with entity id 31502 at (186.312616743247, 71.0, -242.76271775262381)
-[23May2025 17:26:54.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 joined the game
-[23May2025 17:29:26.405] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PiscesLivie moved too quickly! -10.059594327292047,1.2491870787446828,1.3816178863304174
-[23May2025 17:33:30.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 has made the advancement [Not Today, Thank You]
-[23May2025 17:35:10.596] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: christopher0007 moved wrongly!
-[23May2025 17:35:20.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> gogogogogo
-[23May2025 17:35:21.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> gogogogogog'
-[23May2025 17:35:24.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> oogogogogogogogogog
-[23May2025 17:35:27.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> googogogogoooooooooooooooooooooooooo
-[23May2025 17:35:31.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> ogoogoooooooooooooooooooooooooooooooooooooooooooooo
-[23May2025 17:35:32.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> ogogog
-[23May2025 17:35:33.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> g
-[23May2025 17:35:34.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> gogogoggo
-[23May2025 17:35:34.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> ggo
-[23May2025 17:35:34.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> og
-[23May2025 17:35:36.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> ogoggogogogoogo
-[23May2025 17:35:36.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> g
-[23May2025 17:35:36.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> og
-[23May2025 17:35:36.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:36.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> o
-[23May2025 17:35:36.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> og
-[23May2025 17:35:36.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:37.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:37.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> g
-[23May2025 17:35:37.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> o
-[23May2025 17:35:37.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:37.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> gg
-[23May2025 17:35:37.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> g
-[23May2025 17:35:38.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> og
-[23May2025 17:35:38.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:38.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> o
-[23May2025 17:35:38.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:38.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> og
-[23May2025 17:35:38.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> og
-[23May2025 17:35:39.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> o
-[23May2025 17:35:39.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> o
-[23May2025 17:35:39.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> o
-[23May2025 17:35:39.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:39.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> gog
-[23May2025 17:35:39.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> o
-[23May2025 17:35:39.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> riko
-[23May2025 17:35:40.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> g
-[23May2025 17:35:40.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> o
-[23May2025 17:35:40.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> ogog
-[23May2025 17:35:41.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> ogogogogo
-[23May2025 17:35:41.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:41.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> og
-[23May2025 17:35:42.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> goggoog
-[23May2025 17:35:43.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> ggogo
-[23May2025 17:35:43.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> o
-[23May2025 17:35:43.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> gog
-[23May2025 17:35:44.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> og
-[23May2025 17:35:45.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> gogooggogogogo
-[23May2025 17:35:45.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:45.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> g
-[23May2025 17:35:45.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:46.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> o
-[23May2025 17:35:46.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> ggggogo
-[23May2025 17:35:47.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> gogo
-[23May2025 17:35:47.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> g
-[23May2025 17:35:47.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:47.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> o
-[23May2025 17:35:47.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:47.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:48.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:48.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:48.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:48.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> g
-[23May2025 17:35:48.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:49.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> gogo
-[23May2025 17:35:49.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> og
-[23May2025 17:35:49.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> oggo
-[23May2025 17:35:51.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> googogoggogogo
-[23May2025 17:35:51.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:35:51.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> gogo
-[23May2025 17:35:51.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> goog
-[23May2025 17:35:51.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Capidrei20> :)
-[23May2025 17:35:52.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> ogogog
-[23May2025 17:35:53.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> gggo
-[23May2025 17:35:53.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> g
-[23May2025 17:35:53.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> og
-[23May2025 17:35:53.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> ogog
-[23May2025 17:35:54.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> ogo
-[23May2025 17:35:54.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> ggo
-[23May2025 17:35:54.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> gogo
-[23May2025 17:35:55.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> goggoo
-[23May2025 17:35:55.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> o
-[23May2025 17:35:55.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> go
-[23May2025 17:36:00.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> ggogogogoogoggogoggggogogogogoogog
-[23May2025 17:36:00.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Capidrei20> gog
-[23May2025 17:36:01.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Capidrei20> ogogog
-[23May2025 17:36:01.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Capidrei20> ogg
-[23May2025 17:36:01.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Capidrei20> g
-[23May2025 17:36:02.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Capidrei20> g
-[23May2025 17:36:02.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Capidrei20> go
-[23May2025 17:36:02.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Capidrei20> g
-[23May2025 17:36:02.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Capidrei20> ogo
-[23May2025 17:36:03.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Capidrei20> oogogo
-[23May2025 17:37:28.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> tap tap a la pantalla
-[23May2025 17:45:09.119] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PiscesLivie lost connection: Disconnected
-[23May2025 17:45:09.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie left the game
-[23May2025 17:46:38.530] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PiscesLivie[/127.38.242.173:36687] logged in with entity id 35746 at (191.14185327470076, 79.0, -247.26294116842377)
-[23May2025 17:46:38.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie joined the game
-[23May2025 17:52:21.616] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PiscesLivie lost connection: Disconnected
-[23May2025 17:52:21.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie left the game
-[23May2025 17:54:23.080] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PiscesLivie[/127.38.242.173:53089] logged in with entity id 37579 at (202.5, 75.5625, -246.5)
-[23May2025 17:54:23.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie joined the game
-[23May2025 17:58:23.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Isn't It Iron Pick]
-[23May2025 17:58:44.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Stone Age]
-[23May2025 17:59:48.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 has made the advancement [Diamonds!]
-[23May2025 17:59:56.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> diamante
-[23May2025 18:03:38.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Diamonds!]
-[23May2025 18:03:57.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to christopher0007]
-[23May2025 18:04:04.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to Capidrei20]
-[23May2025 18:04:08.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [Diamonds!]
-[23May2025 18:05:19.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Acquire Hardware]
-[23May2025 18:07:21.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [Not Today, Thank You]
-[23May2025 18:07:38.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 fell from a high place
-[23May2025 18:07:53.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <christopher0007> jajajajajajjaa
-[23May2025 18:09:22.918] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PiscesLivie lost connection: Disconnected
-[23May2025 18:09:22.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie left the game
-[23May2025 18:19:42.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 has made the advancement [Ice Bucket Challenge]
-[23May2025 18:19:46.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [Ice Bucket Challenge]
-[23May2025 18:20:28.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [Who is Cutting Onions?]
-[23May2025 18:28:50.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 has made the advancement [We Need to Go Deeper]
-[23May2025 18:28:51.514] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Capidrei20 moved too quickly! 8.60351395132841,1.8322033533667508,-5.264403549958686
-[23May2025 18:28:51.535] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3027ms or 60 ticks behind
-[23May2025 18:29:51.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: christopher0007 was slain by Piglin
-[23May2025 18:35:59.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [Take Aim]
-[23May2025 18:37:09.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Capidrei20 has made the advancement [We Need to Go Deeper]
+[24May2025 23:08:45.813] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[24May2025 23:08:45.817] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[24May2025 23:08:45.932] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[24May2025 23:08:45.988] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Til-n/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[24May2025 23:08:46.207] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Til-n/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[24May2025 23:08:46.209] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Til-n/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[24May2025 23:08:46.210] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Til-n/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[24May2025 23:08:46.212] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Til-n/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[24May2025 23:08:46.302] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[24May2025 23:08:47.899] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[24May2025 23:08:53.779] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[24May2025 23:08:53.780] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[24May2025 23:08:54.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[24May2025 23:08:55.042] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[24May2025 23:08:55.838] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[24May2025 23:08:56.609] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Til-n/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/assets/.mcassetsroot' uses unexpected schema
+[24May2025 23:08:56.609] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Til-n/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/data/.mcassetsroot' uses unexpected schema
+[24May2025 23:08:58.385] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[24May2025 23:08:58.538] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[24May2025 23:08:58.540] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[24May2025 23:08:59.010] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[24May2025 23:08:59.011] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[24May2025 23:08:59.011] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[24May2025 23:08:59.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[24May2025 23:08:59.306] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[24May2025 23:08:59.351] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[24May2025 23:08:59.440] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[24May2025 23:08:59.441] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[24May2025 23:08:59.441] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[24May2025 23:08:59.442] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[24May2025 23:08:59.492] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[24May2025 23:08:59.493] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
+[24May2025 23:08:59.494] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
+[24May2025 23:08:59.494] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[24May2025 23:08:59.495] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
+[24May2025 23:08:59.495] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[24May2025 23:08:59.496] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
+[24May2025 23:08:59.496] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
+[24May2025 23:08:59.496] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[24May2025 23:08:59.497] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
+[24May2025 23:08:59.521] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[24May2025 23:09:02.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[24May2025 23:09:06.004] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24May2025 23:09:06.006] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24May2025 23:09:06.007] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24May2025 23:09:06.008] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24May2025 23:09:06.010] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24May2025 23:09:06.011] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24May2025 23:09:06.014] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24May2025 23:09:06.236] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24May2025 23:09:06.730] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
+[24May2025 23:09:07.175] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4446 ms
+[24May2025 23:09:07.176] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.721s)! For help, type "help"
+[24May2025 23:09:07.192] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[24May2025 23:09:31.700] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@43c8846d[id=<null>,name=PiscesLivie,properties={},legacy=false] (/127.38.242.173:40145) lost connection: Disconnected
+[24May2025 23:14:54.823] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PiscesLivie[/127.38.242.173:43527] logged in with entity id 75 at (-245.5, 64.0, -207.5)
+[24May2025 23:14:54.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie joined the game
+[24May2025 23:17:05.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made PiscesLivie a server operator
+[24May2025 23:17:13.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Creative Mode]
+[24May2025 23:18:08.099] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PiscesLivie lost connection: Disconnected
+[24May2025 23:18:08.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie left the game
+[24May2025 23:18:20.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[24May2025 23:18:20.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[24May2025 23:18:20.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[24May2025 23:18:20.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[24May2025 23:18:21.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[24May2025 23:18:22.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[24May2025 23:18:22.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[24May2025 23:18:22.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[24May2025 23:18:22.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[24May2025 23:18:22.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[24May2025 23:18:22.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
