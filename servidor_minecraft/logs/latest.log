@@ -125,3 +125,6 @@
 [26May2025 15:02:10.240] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of PiscesLivie (18)
 [26May2025 15:02:10.241] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to PiscesLivie
 [26May2025 15:06:07.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 79.500000, 69.000000, -124.500000]
+[26May2025 15:12:04.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to -209.000000, 117.000000, 160.000000]
+[26May2025 15:17:30.377] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@241e1a61[id=<null>,name=christopher0007,properties={},legacy=false] (/127.203.161.117:48663) lost connection: Disconnected
+[26May2025 15:18:00.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 79.500000, 69.000000, -124.500000]
