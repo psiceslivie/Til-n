@@ -128,3 +128,7 @@
 [26May2025 15:12:04.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to -209.000000, 117.000000, 160.000000]
 [26May2025 15:17:30.377] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@241e1a61[id=<null>,name=christopher0007,properties={},legacy=false] (/127.203.161.117:48663) lost connection: Disconnected
 [26May2025 15:18:00.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 79.500000, 69.000000, -124.500000]
+[26May2025 15:22:50.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 79.500000, 69.000000, -124.500000]
+[26May2025 15:22:53.326] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@287c7cdc[id=<null>,name=christopher0007,properties={},legacy=false] (/127.203.161.117:39307) lost connection: Disconnected
+[26May2025 15:23:28.828] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@43232507[id=<null>,name=christopher0007,properties={},legacy=false] (/127.203.161.117:45751) lost connection: Disconnected
+[26May2025 15:29:32.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie fell from a high place

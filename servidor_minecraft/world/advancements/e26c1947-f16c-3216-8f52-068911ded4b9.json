@@ -20,6 +20,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2025-05-25 00:49:01 +0000",
+      "minecraft:river": "2025-05-26 15:17:37 +0000",
       "minecraft:stony_shore": "2025-05-26 13:34:00 +0000",
       "minecraft:grove": "2025-05-26 15:03:42 +0000",
       "minecraft:jagged_peaks": "2025-05-25 00:49:03 +0000",
@@ -1490,6 +1491,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-05-26 15:21:02 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2025-05-26 15:23:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
       "has_string": "2025-05-26 15:05:25 +0000"
@@ -1499,6 +1512,12 @@
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2025-05-26 15:05:25 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2025-05-26 15:23:22 +0000"
     },
     "done": true
   },
