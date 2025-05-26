@@ -1618,6 +1618,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting": {
+    "criteria": {
+      "has_weathered_cut_copper": "2025-05-26 19:36:40 +0000"
+    },
+    "done": true
+  },
   "alexscaves:alexscaves/marine_snow": {
     "criteria": {
       "marine_snow": "2025-05-26 19:17:44 +0000"
@@ -1660,6 +1666,12 @@
   "minecraft:recipes/building_blocks/weathered_cut_copper": {
     "criteria": {
       "has_weathered_copper": "2025-05-26 19:30:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/weathered_cut_copper_slab": {
+    "criteria": {
+      "has_weathered_cut_copper": "2025-05-26 19:36:40 +0000"
     },
     "done": true
   },
@@ -1711,9 +1723,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/weathered_cut_copper_stairs": {
+    "criteria": {
+      "has_weathered_cut_copper": "2025-05-26 19:36:40 +0000"
+    },
+    "done": true
+  },
   "ae2:main/root": {
     "criteria": {
       "copper": "2025-05-26 19:14:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/weathered_cut_copper_stairs_from_weathered_cut_copper_stonecutting": {
+    "criteria": {
+      "has_weathered_cut_copper": "2025-05-26 19:36:40 +0000"
     },
     "done": true
   },
@@ -1726,6 +1750,12 @@
   "alexscaves:alexscaves/stalked_by_deep_one": {
     "criteria": {
       "stalked_by_deep_one": "2025-05-26 19:16:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_cut_copper_from_honeycomb": {
+    "criteria": {
+      "has_weathered_cut_copper": "2025-05-26 19:36:40 +0000"
     },
     "done": true
   },
