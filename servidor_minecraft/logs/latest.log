@@ -214,3 +214,38 @@
 [26May2025 19:05:48.624] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: zpekenoeduin lost connection: Timed out
 [26May2025 19:05:48.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zpekenoeduin left the game
 [26May2025 19:05:48.625] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client zpekenoeduin
+[26May2025 19:06:46.077] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: zpekenoeduin[/127.72.160.8:34751] logged in with entity id 15921 at (282.04471286199674, 63.0, 625.0323432447165)
+[26May2025 19:06:46.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zpekenoeduin joined the game
+[26May2025 19:06:48.209] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of zpekenoeduin (18)
+[26May2025 19:06:48.209] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to zpekenoeduin
+[26May2025 19:06:54.179] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: williamns55 lost connection: Timed out
+[26May2025 19:06:54.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 left the game
+[26May2025 19:06:54.179] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client williamns55
+[26May2025 19:07:16.173] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: zpekenoeduin lost connection: Timed out
+[26May2025 19:07:16.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zpekenoeduin left the game
+[26May2025 19:07:16.173] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client zpekenoeduin
+[26May2025 19:07:34.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [Another Kind of Slime]
+[26May2025 19:08:19.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie discovered the floor was lava
+[26May2025 19:08:42.628] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: zpekenoeduin[/127.72.160.8:42601] logged in with entity id 16705 at (282.04471286199674, 63.0, 625.0323432447165)
+[26May2025 19:08:42.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zpekenoeduin joined the game
+[26May2025 19:08:43.388] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of zpekenoeduin (18)
+[26May2025 19:08:43.389] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to zpekenoeduin
+[26May2025 19:09:12.727] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: zpekenoeduin lost connection: Timed out
+[26May2025 19:09:12.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zpekenoeduin left the game
+[26May2025 19:09:12.728] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client zpekenoeduin
+[26May2025 19:10:32.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to yonexxNTw]
+[26May2025 19:11:19.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Creative Mode]
+[26May2025 19:11:54.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [The Cyclops]
+[26May2025 19:12:14.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [The Cyclops]
+[26May2025 19:12:33.774] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: williamns55[/127.203.161.117:51307] logged in with entity id 17451 at (-2129.5563669022554, 63.14150320667355, 2122.61261102031)
+[26May2025 19:12:33.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 joined the game
+[26May2025 19:12:38.520] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of williamns55 (18)
+[26May2025 19:12:38.521] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to williamns55
+[26May2025 19:12:48.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Survival Mode]
+[26May2025 19:13:17.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has reached the goal [Captain Nemo]
+[26May2025 19:13:33.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has reached the goal [Captain Nemo]
+[26May2025 19:13:43.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <williamns55> olo
+[26May2025 19:14:42.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [Shell City]
+[26May2025 19:15:37.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <williamns55> yo q
+[26May2025 19:15:40.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yonexxNTw> willi
+[26May2025 19:16:06.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported williamns55 to PiscesLivie]

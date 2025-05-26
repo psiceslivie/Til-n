@@ -1593,6 +1593,12 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/bioluminesscence": {
+    "criteria": {
+      "bioluminesscence": "2025-05-26 19:07:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2025-05-26 18:48:36 +0000"
