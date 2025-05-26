@@ -201,3 +201,18 @@
 [26May2025 21:31:56.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 141.500000, -52.000000, -194.500000]
 [26May2025 21:32:04.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 271.000000, 63.000000, 646.000000]
 [26May2025 21:32:12.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yonexxNTw: Teleported yonexxNTw to PiscesLivie]
+[26May2025 21:36:32.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie was slain by yonexxNTw
+[26May2025 21:36:36.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 267.000000, 65.000000, 639.000000]
+[26May2025 21:37:31.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw was slain by PiscesLivie
+[26May2025 21:38:32.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie was slain by yonexxNTw
+[26May2025 21:39:10.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie was slain by yonexxNTw
+[26May2025 21:40:14.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw was slain by PiscesLivie
+[26May2025 21:41:35.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw was slain by PiscesLivie
+[26May2025 21:42:22.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw was slain by PiscesLivie
+[26May2025 21:43:08.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie was slain by yonexxNTw
+[26May2025 21:44:34.980] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PiscesLivie lost connection: Disconnected
+[26May2025 21:44:34.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie left the game
+[26May2025 21:44:34.981] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client PiscesLivie
+[26May2025 21:44:44.830] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yonexxNTw lost connection: Disconnected
+[26May2025 21:44:44.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw left the game
+[26May2025 21:44:44.831] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client yonexxNTw
