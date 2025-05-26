@@ -148,3 +148,23 @@
 [26May2025 20:30:17.478] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
 [26May2025 20:30:41.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [I Found the Coin Slot]
 [26May2025 20:30:55.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [Yellow Brick Road]
+[26May2025 20:31:03.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Yellow Brick Road]
+[26May2025 20:31:06.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [Caniac No More]
+[26May2025 20:31:25.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [Carbonated Swim]
+[26May2025 20:31:53.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [Choc-o-Block]
+[26May2025 20:32:22.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Carbonated Swim]
+[26May2025 20:33:10.246] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: zpekenoeduin[/127.72.160.8:46031] logged in with entity id 13707 at (282.04471286199674, 63.0, 625.0323432447165)
+[26May2025 20:33:10.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zpekenoeduin joined the game
+[26May2025 20:33:10.873] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of zpekenoeduin (18)
+[26May2025 20:33:10.874] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to zpekenoeduin
+[26May2025 20:33:38.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Where's Goopy?]
+[26May2025 20:34:52.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [I Found the Coin Slot]
+[26May2025 20:36:28.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [You're a Monster]
+[26May2025 20:36:36.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [Oh Little Town of Gingerbread]
+[26May2025 20:38:19.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to yonexxNTw]
+[26May2025 20:39:52.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [The Dark (Chocolate) Tower]
+[26May2025 20:39:54.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [The Dark (Chocolate) Tower]
+[26May2025 20:39:58.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [A Day at the Fair]
+[26May2025 20:40:21.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [The Secret Ingredient]
+[26May2025 20:40:29.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has reached the goal [Sweet Sweet Speeding Up]
+[26May2025 20:41:02.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Biome Reactors]

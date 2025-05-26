@@ -1808,6 +1808,18 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/discover_candy_cavity": {
+    "criteria": {
+      "discover": "2025-05-26 20:27:31 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/enter_purple_soda": {
+    "criteria": {
+      "in_purple_soda": "2025-05-26 20:31:25 +0000"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/blasting/silicon_from_certus_quartz_dust": {
     "criteria": {
       "has_certus_quartz_dust": "2025-05-26 20:24:36 +0000"
@@ -1817,6 +1829,12 @@
   "ae2:recipes/misc/misc/deconstruction_certus_quartz_block": {
     "criteria": {
       "has_quartz_block": "2025-05-26 20:24:44 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_caniac": {
+    "criteria": {
+      "killed": "2025-05-26 20:31:06 +0000"
     },
     "done": true
   },
@@ -1844,6 +1862,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-05-26 20:26:55 +0000"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/block_cutter/slabs/quartz_slab": {
     "criteria": {
       "has_quartz_block": "2025-05-26 20:24:44 +0000"
@@ -1856,12 +1880,30 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/walk_on_rock_candy": {
+    "criteria": {
+      "cave_book": "2025-05-26 20:30:55 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/gingerbread_crumbs": {
+    "criteria": {
+      "crumbs": "2025-05-26 20:36:28 +0000"
+    },
+    "done": true
+  },
   "ae2:main/presses": {
     "criteria": {
       "calculation": "2025-05-26 20:24:34 +0000",
       "silicon": "2025-05-26 20:24:34 +0000",
       "engineering": "2025-05-26 20:24:34 +0000",
       "logic": "2025-05-26 20:24:34 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_gumbeeper": {
+    "criteria": {
+      "killed": "2025-05-26 20:34:52 +0000"
     },
     "done": true
   },
@@ -1874,6 +1916,12 @@
   "ae2:recipes/misc/decorative/cut_quartz_block_from_stonecutting": {
     "criteria": {
       "has_quartz_block": "2025-05-26 20:24:44 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/caramel": {
+    "criteria": {
+      "mussel": "2025-05-26 20:28:58 +0000"
     },
     "done": true
   },
@@ -1895,6 +1943,12 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/eat_block_of_chocolate": {
+    "criteria": {
+      "eat_block_of_chocolate": "2025-05-26 20:31:53 +0000"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/shaped/not_so_mysterious_cube": {
     "criteria": {
       "press": "2025-05-26 20:24:34 +0000"
@@ -1904,6 +1958,12 @@
   "ae2:recipes/misc/shaped/stairs/quartz_block": {
     "criteria": {
       "has_quartz_block": "2025-05-26 20:24:44 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/gingerbread_town": {
+    "criteria": {
+      "gingerbread_town": "2025-05-26 20:36:36 +0000"
     },
     "done": true
   },
