@@ -120,3 +120,8 @@
 [26May2025 14:56:11.928] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PiscesLivie lost connection: Disconnected
 [26May2025 14:56:11.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie left the game
 [26May2025 14:56:11.929] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client PiscesLivie
+[26May2025 15:02:09.682] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PiscesLivie[/127.38.242.173:54099] logged in with entity id 1739 at (80.69999998807907, 69.0, -126.71607644937237)
+[26May2025 15:02:09.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie joined the game
+[26May2025 15:02:10.240] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of PiscesLivie (18)
+[26May2025 15:02:10.241] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to PiscesLivie
+[26May2025 15:06:07.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 79.500000, 69.000000, -124.500000]

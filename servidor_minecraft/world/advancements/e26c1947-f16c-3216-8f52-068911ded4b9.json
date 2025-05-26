@@ -21,6 +21,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2025-05-25 00:49:01 +0000",
       "minecraft:stony_shore": "2025-05-26 13:34:00 +0000",
+      "minecraft:grove": "2025-05-26 15:03:42 +0000",
       "minecraft:jagged_peaks": "2025-05-25 00:49:03 +0000",
       "minecraft:cold_ocean": "2025-05-26 13:53:31 +0000",
       "minecraft:forest": "2025-05-25 01:31:49 +0000",
@@ -1147,6 +1148,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-05-26 13:56:29 +0000",
+      "minecraft:spider": "2025-05-26 15:05:23 +0000",
       "minecraft:creeper": "2025-05-26 14:33:23 +0000",
       "minecraft:zombie": "2025-05-26 13:56:46 +0000"
     },
@@ -1461,6 +1463,42 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2025-05-26 14:38:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-05-26 15:05:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-05-26 15:05:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-05-26 15:05:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-05-26 15:05:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-05-26 15:05:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-05-26 15:05:25 +0000"
     },
     "done": true
   },
