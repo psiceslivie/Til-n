@@ -1998,6 +1998,12 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/radiant_essence": {
+    "criteria": {
+      "mussel": "2025-05-26 21:00:31 +0000"
+    },
+    "done": true
+  },
   "alexscaves:alexscaves/gelatin": {
     "criteria": {
       "gelatin": "2025-05-26 20:49:48 +0000"
