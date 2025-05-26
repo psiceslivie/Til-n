@@ -255,6 +255,7 @@
       "baked_potato": "2025-05-26 14:47:57 +0000",
       "apple": "2025-05-26 13:39:22 +0000",
       "bread": "2025-05-26 13:20:38 +0000",
+      "cookie": "2025-05-26 21:24:38 +0000",
       "carrot": "2025-05-26 13:36:15 +0000"
     },
     "done": false
@@ -2332,6 +2333,12 @@
   "alexscaves:alexscaves/shot_gum": {
     "criteria": {
       "shot_gum": "2025-05-26 21:16:51 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/gingerbread_crumbs": {
+    "criteria": {
+      "crumbs": "2025-05-26 21:26:24 +0000"
     },
     "done": true
   },
