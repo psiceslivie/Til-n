@@ -132,3 +132,27 @@
 [26May2025 15:22:53.326] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@287c7cdc[id=<null>,name=christopher0007,properties={},legacy=false] (/127.203.161.117:39307) lost connection: Disconnected
 [26May2025 15:23:28.828] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@43232507[id=<null>,name=christopher0007,properties={},legacy=false] (/127.203.161.117:45751) lost connection: Disconnected
 [26May2025 15:29:32.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie fell from a high place
+[26May2025 15:33:20.176] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PiscesLivie lost connection: Disconnected
+[26May2025 15:33:20.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie left the game
+[26May2025 15:33:20.177] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client PiscesLivie
+[26May2025 15:33:50.081] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PiscesLivie[/127.38.242.173:42841] logged in with entity id 9975 at (-25.864444356798305, 113.0, 183.6762780404622)
+[26May2025 15:33:50.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie joined the game
+[26May2025 15:33:50.284] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of PiscesLivie (18)
+[26May2025 15:33:50.285] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to PiscesLivie
+[26May2025 15:34:41.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie was slain by Enderman
+[26May2025 15:34:57.024] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PiscesLivie lost connection: Disconnected
+[26May2025 15:34:57.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie left the game
+[26May2025 15:34:57.025] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client PiscesLivie
+[26May2025 15:36:04.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[26May2025 15:36:04.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[26May2025 15:36:04.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[26May2025 15:36:04.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[26May2025 15:36:04.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[26May2025 15:36:04.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[26May2025 15:36:04.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[26May2025 15:36:04.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[26May2025 15:36:04.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[26May2025 15:36:04.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26May2025 15:36:04.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26May2025 15:36:04.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[26May2025 15:36:04.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
