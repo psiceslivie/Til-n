@@ -604,6 +604,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-05-26 16:55:03 +0000",
       "minecraft:spider": "2025-05-26 16:54:22 +0000",
+      "minecraft:witch": "2025-05-26 20:40:30 +0000",
       "minecraft:enderman": "2025-05-26 17:58:56 +0000",
       "minecraft:zombie": "2025-05-26 16:48:29 +0000",
       "minecraft:drowned": "2025-05-26 18:59:06 +0000"
@@ -1808,39 +1809,30 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/discover_candy_cavity": {
+  "betterdungeons:spider_dungeon": {
     "criteria": {
-      "discover": "2025-05-26 20:27:31 +0000"
+      "in_better_spider_dungeon": "2025-05-26 20:13:44 +0000"
     },
     "done": true
   },
-  "alexscaves:alexscaves/enter_purple_soda": {
+  "ae2:main/presses": {
     "criteria": {
-      "in_purple_soda": "2025-05-26 20:31:25 +0000"
+      "calculation": "2025-05-26 20:24:34 +0000",
+      "silicon": "2025-05-26 20:24:34 +0000",
+      "engineering": "2025-05-26 20:24:34 +0000",
+      "logic": "2025-05-26 20:24:34 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/not_so_mysterious_cube": {
+    "criteria": {
+      "press": "2025-05-26 20:24:34 +0000"
     },
     "done": true
   },
   "ae2:recipes/misc/blasting/silicon_from_certus_quartz_dust": {
     "criteria": {
       "has_certus_quartz_dust": "2025-05-26 20:24:36 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/misc/deconstruction_certus_quartz_block": {
-    "criteria": {
-      "has_quartz_block": "2025-05-26 20:24:44 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/defeat_caniac": {
-    "criteria": {
-      "killed": "2025-05-26 20:31:06 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/shaped/walls/quartz_block": {
-    "criteria": {
-      "has_quartz_block": "2025-05-26 20:24:44 +0000"
     },
     "done": true
   },
@@ -1856,54 +1848,9 @@
     },
     "done": true
   },
-  "ae2:recipes/misc/shaped/slabs/quartz_block": {
-    "criteria": {
-      "has_quartz_block": "2025-05-26 20:24:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
-    "criteria": {
-      "has_dandelion": "2025-05-26 20:26:55 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/block_cutter/slabs/quartz_slab": {
-    "criteria": {
-      "has_quartz_block": "2025-05-26 20:24:44 +0000"
-    },
-    "done": true
-  },
   "ae2:recipes/misc/network/parts/quartz_fiber_part": {
     "criteria": {
       "has_dusts/quartz": "2025-05-26 20:24:36 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/walk_on_rock_candy": {
-    "criteria": {
-      "cave_book": "2025-05-26 20:30:55 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/gingerbread_crumbs": {
-    "criteria": {
-      "crumbs": "2025-05-26 20:36:28 +0000"
-    },
-    "done": true
-  },
-  "ae2:main/presses": {
-    "criteria": {
-      "calculation": "2025-05-26 20:24:34 +0000",
-      "silicon": "2025-05-26 20:24:34 +0000",
-      "engineering": "2025-05-26 20:24:34 +0000",
-      "logic": "2025-05-26 20:24:34 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/defeat_gumbeeper": {
-    "criteria": {
-      "killed": "2025-05-26 20:34:52 +0000"
     },
     "done": true
   },
@@ -1913,15 +1860,33 @@
     },
     "done": true
   },
-  "ae2:recipes/misc/decorative/cut_quartz_block_from_stonecutting": {
+  "ae2:recipes/misc/misc/deconstruction_certus_quartz_block": {
     "criteria": {
       "has_quartz_block": "2025-05-26 20:24:44 +0000"
     },
     "done": true
   },
-  "alexscaves:alexscaves/caramel": {
+  "ae2:recipes/misc/shaped/walls/quartz_block": {
     "criteria": {
-      "mussel": "2025-05-26 20:28:58 +0000"
+      "has_quartz_block": "2025-05-26 20:24:44 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/slabs/quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2025-05-26 20:24:44 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/block_cutter/slabs/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2025-05-26 20:24:44 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/cut_quartz_block_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-05-26 20:24:44 +0000"
     },
     "done": true
   },
@@ -1943,21 +1908,63 @@
     },
     "done": true
   },
+  "ae2:recipes/misc/shaped/stairs/quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2025-05-26 20:24:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-05-26 20:26:55 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/discover_candy_cavity": {
+    "criteria": {
+      "discover": "2025-05-26 20:27:31 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/caramel": {
+    "criteria": {
+      "mussel": "2025-05-26 20:28:58 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/walk_on_rock_candy": {
+    "criteria": {
+      "cave_book": "2025-05-26 20:30:55 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_caniac": {
+    "criteria": {
+      "killed": "2025-05-26 20:31:06 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/enter_purple_soda": {
+    "criteria": {
+      "in_purple_soda": "2025-05-26 20:31:25 +0000"
+    },
+    "done": true
+  },
   "alexscaves:alexscaves/eat_block_of_chocolate": {
     "criteria": {
       "eat_block_of_chocolate": "2025-05-26 20:31:53 +0000"
     },
     "done": true
   },
-  "ae2:recipes/misc/shaped/not_so_mysterious_cube": {
+  "alexscaves:alexscaves/defeat_gumbeeper": {
     "criteria": {
-      "press": "2025-05-26 20:24:34 +0000"
+      "killed": "2025-05-26 20:34:52 +0000"
     },
     "done": true
   },
-  "ae2:recipes/misc/shaped/stairs/quartz_block": {
+  "alexscaves:alexscaves/gingerbread_crumbs": {
     "criteria": {
-      "has_quartz_block": "2025-05-26 20:24:44 +0000"
+      "crumbs": "2025-05-26 20:36:28 +0000"
     },
     "done": true
   },
@@ -1967,9 +1974,33 @@
     },
     "done": true
   },
-  "betterdungeons:spider_dungeon": {
+  "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
-      "in_better_spider_dungeon": "2025-05-26 20:13:44 +0000"
+      "has_gunpowder": "2025-05-26 20:37:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-05-26 20:37:06 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/licowitch_tower": {
+    "criteria": {
+      "licowitch_tower": "2025-05-26 20:39:52 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/caramel_apple": {
+    "criteria": {
+      "mussel": "2025-05-26 20:39:58 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/gelatin": {
+    "criteria": {
+      "gelatin": "2025-05-26 20:49:48 +0000"
     },
     "done": true
   },

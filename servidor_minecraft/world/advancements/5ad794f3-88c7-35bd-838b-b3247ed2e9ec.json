@@ -722,7 +722,8 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-05-26 18:57:37 +0000",
-      "minecraft:spider": "2025-05-26 18:43:04 +0000"
+      "minecraft:spider": "2025-05-26 18:43:04 +0000",
+      "minecraft:zombie": "2025-05-26 20:37:25 +0000"
     },
     "done": false
   },
@@ -801,6 +802,24 @@
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2025-05-26 20:36:29 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/discover_candy_cavity": {
+    "criteria": {
+      "discover": "2025-05-26 20:51:33 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/walk_on_rock_candy": {
+    "criteria": {
+      "cave_book": "2025-05-26 20:51:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2025-05-26 20:50:20 +0000"
     },
     "done": true
   },
