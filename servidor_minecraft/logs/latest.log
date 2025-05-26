@@ -287,3 +287,11 @@
 [26May2025 19:44:29.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Creative Mode]
 [26May2025 19:44:48.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Survival Mode]
 [26May2025 19:45:59.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yonexxNTw: Set own game mode to Survival Mode]
+[26May2025 19:46:49.479] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: williamns55[/127.203.161.117:59055] logged in with entity id 28189 at (-2140.617874256544, 61.74882923018809, 2093.796735551579)
+[26May2025 19:46:49.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 joined the game
+[26May2025 19:46:53.106] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of williamns55 (18)
+[26May2025 19:46:53.107] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to williamns55
+[26May2025 19:48:27.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yonexxNTw> holi
+[26May2025 19:49:07.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 265.000000, 64.000000, 653.000000]
+[26May2025 19:49:18.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported williamns55 to PiscesLivie]
+[26May2025 19:49:21.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yonexxNTw: Teleported yonexxNTw to PiscesLivie]
