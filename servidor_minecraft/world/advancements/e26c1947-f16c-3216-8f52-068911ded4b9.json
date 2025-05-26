@@ -24,6 +24,7 @@
       "minecraft:jagged_peaks": "2025-05-25 00:49:03 +0000",
       "minecraft:cold_ocean": "2025-05-26 13:53:31 +0000",
       "minecraft:forest": "2025-05-25 01:31:49 +0000",
+      "minecraft:ocean": "2025-05-26 14:14:31 +0000",
       "minecraft:deep_dark": "2025-05-26 14:01:14 +0000",
       "minecraft:meadow": "2025-05-26 13:22:01 +0000",
       "minecraft:plains": "2025-05-25 00:47:51 +0000"
@@ -258,6 +259,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2025-05-26 14:20:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2025-05-26 13:49:36 +0000"
@@ -420,6 +427,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2025-05-26 14:20:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2025-05-26 14:20:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2025-05-26 13:27:01 +0000"
@@ -516,6 +535,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2025-05-26 14:20:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2025-05-26 13:55:49 +0000"
@@ -528,6 +553,12 @@
       "minecraft:zombie": "2025-05-26 13:56:46 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-05-26 14:20:29 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
@@ -556,6 +587,12 @@
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2025-05-26 13:56:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-05-26 14:20:40 +0000"
     },
     "done": true
   },
@@ -592,6 +629,12 @@
   "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-05-26 13:44:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2025-05-26 14:20:40 +0000"
     },
     "done": true
   },
@@ -682,6 +725,12 @@
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
       "has_planks": "2025-05-26 13:26:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2025-05-26 14:20:40 +0000"
     },
     "done": true
   },
@@ -802,6 +851,12 @@
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2025-05-26 13:49:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-05-26 14:20:29 +0000"
     },
     "done": true
   },
@@ -979,6 +1034,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-26 14:20:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2025-05-26 13:27:01 +0000"
@@ -1126,6 +1187,12 @@
   "ae2:recipes/misc/network/cables/dense_smart_fluix": {
     "criteria": {
       "has_dusts/redstone": "2025-05-26 13:58:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-26 14:20:40 +0000"
     },
     "done": true
   },
