@@ -1,297 +1,150 @@
-[26May2025 18:35:55.790] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[26May2025 18:35:55.795] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[26May2025 18:35:56.415] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[26May2025 18:35:56.478] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Til-n/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[26May2025 18:35:56.761] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Til-n/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[26May2025 18:35:56.764] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Til-n/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[26May2025 18:35:56.765] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Til-n/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[26May2025 18:35:56.767] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Til-n/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[26May2025 18:35:56.927] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[26May2025 18:35:59.044] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[26May2025 18:35:59.106] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[26May2025 18:35:59.164] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
-[26May2025 18:35:59.167] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[26May2025 18:36:08.788] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[26May2025 20:10:53.121] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[26May2025 20:10:53.125] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[26May2025 20:10:53.750] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[26May2025 20:10:53.814] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Til-n/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[26May2025 20:10:54.107] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Til-n/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[26May2025 20:10:54.109] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Til-n/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[26May2025 20:10:54.111] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Til-n/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[26May2025 20:10:54.116] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Til-n/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[26May2025 20:10:54.306] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[26May2025 20:10:56.666] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26May2025 20:10:56.746] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[26May2025 20:10:56.823] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
+[26May2025 20:10:56.825] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[26May2025 20:11:05.635] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[26May2025 18:36:10.203] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[26May2025 18:36:10.551] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[26May2025 18:36:10.552] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[26May2025 18:36:13.600] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[26May2025 18:36:13.690] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[26May2025 18:36:13.816] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[26May2025 18:36:13.822] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[26May2025 18:36:13.823] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[26May2025 18:36:13.823] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[26May2025 18:36:14.027] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[26May2025 18:36:14.254] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
-[26May2025 18:36:14.255] [main/INFO] [ribbits/]: Registering Ribbit professions...
-[26May2025 18:36:14.255] [main/INFO] [ribbits/]: Registering Ribbit instruments...
-[26May2025 18:36:14.258] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
-[26May2025 18:36:14.695] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.30 Target: null
-[26May2025 18:36:14.698] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[26May2025 18:36:14.894] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[26May2025 18:36:14.896] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
-[26May2025 18:36:14.995] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.24 Target: null
-[26May2025 18:36:17.428] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[26May2025 18:36:19.701] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Til-n/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23139!/assets/.mcassetsroot' uses unexpected schema
-[26May2025 18:36:19.702] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Til-n/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23139!/data/.mcassetsroot' uses unexpected schema
-[26May2025 18:36:21.590] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
-[26May2025 18:36:21.594] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
-[26May2025 18:36:21.595] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
-[26May2025 18:36:21.608] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
-[26May2025 18:36:21.609] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
-[26May2025 18:36:21.609] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
-[26May2025 18:36:21.610] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
-[26May2025 18:36:21.611] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
-[26May2025 18:36:21.612] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
-[26May2025 18:36:21.612] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
-[26May2025 18:36:21.613] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
-[26May2025 18:36:21.613] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
-[26May2025 18:36:21.614] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
-[26May2025 18:36:21.614] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
-[26May2025 18:36:21.707] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag cataclysm:sunken_city_avoid as it is missing following references: minecraft:monument (from L_Enders_Cataclysm-1.13 Terror Of The Abyss Update-1.20.1.jar)
-[26May2025 18:36:22.956] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 16 recipes
-[26May2025 18:36:23.177] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1934 advancements
-[26May2025 18:36:23.183] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
-[26May2025 18:36:24.828] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[26May2025 18:36:24.828] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[26May2025 18:36:24.828] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[26May2025 18:36:24.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[26May2025 18:36:24.942] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[26May2025 18:36:24.979] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[26May2025 18:36:25.086] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[26May2025 18:36:25.086] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[26May2025 18:36:25.087] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[26May2025 18:36:25.087] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[26May2025 18:36:25.146] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[26May2025 18:36:25.147] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
-[26May2025 18:36:25.147] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
-[26May2025 18:36:25.148] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[26May2025 18:36:25.148] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
-[26May2025 18:36:25.150] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[26May2025 18:36:25.151] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
-[26May2025 18:36:25.152] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
-[26May2025 18:36:25.152] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[26May2025 18:36:25.153] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
-[26May2025 18:36:25.161] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[26May2025 18:36:28.516] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[26May2025 18:36:29.009] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[26May2025 18:36:30.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[26May2025 18:36:30.291] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[26May2025 18:36:31.148] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[26May2025 18:36:31.734] [Netty Epoll Server IO #5/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[26May2025 18:36:32.220] [Netty Epoll Server IO #6/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[26May2025 18:36:32.699] [Netty Epoll Server IO #7/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[26May2025 18:36:33.158] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[26May2025 18:36:33.889] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[26May2025 18:36:34.278] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[26May2025 18:36:34.430] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26May2025 18:36:34.469] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26May2025 18:36:34.491] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26May2025 18:36:34.506] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26May2025 18:36:34.540] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26May2025 18:36:34.554] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26May2025 18:36:34.591] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26May2025 18:36:34.599] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26May2025 18:36:34.630] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26May2025 18:36:34.662] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26May2025 18:36:35.026] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26May2025 18:36:35.995] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26May2025 18:36:36.047] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26May2025 18:36:36.530] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26May2025 18:36:37.025] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26May2025 18:36:37.525] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[26May2025 18:36:38.026] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[26May2025 18:36:38.254] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8229 ms
-[26May2025 18:36:38.254] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.149s)! For help, type "help"
-[26May2025 18:36:38.296] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[26May2025 18:36:38.299] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[26May2025 18:36:38.314] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
-[26May2025 18:36:46.012] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PiscesLivie[/127.38.242.173:38919] logged in with entity id 118 at (264.9979337091698, 63.0, 650.9003596325983)
-[26May2025 18:36:46.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie joined the game
-[26May2025 18:36:48.411] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of PiscesLivie (18)
-[26May2025 18:36:48.421] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to PiscesLivie
-[26May2025 18:36:48.442] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2429ms or 48 ticks behind
-[26May2025 18:36:50.809] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yonexxNTw[/127.108.138.5:43821] logged in with entity id 296 at (277.69999998807907, 63.0, 650.1223911943873)
-[26May2025 18:36:50.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw joined the game
-[26May2025 18:36:51.099] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of yonexxNTw (18)
-[26May2025 18:36:51.100] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to yonexxNTw
-[26May2025 18:36:51.168] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: zpekenoeduin[/127.72.160.8:41967] logged in with entity id 308 at (273.46416042994355, 63.0, 644.3547965354802)
-[26May2025 18:36:51.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zpekenoeduin joined the game
-[26May2025 18:36:51.531] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of zpekenoeduin (18)
-[26May2025 18:36:51.531] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to zpekenoeduin
-[26May2025 18:36:54.779] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: williamns55[/127.203.161.117:43463] logged in with entity id 369 at (267.20348495318234, 63.0, 656.9401884201131)
-[26May2025 18:36:54.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 joined the game
-[26May2025 18:36:55.241] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of williamns55 (18)
-[26May2025 18:36:55.243] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to williamns55
-[26May2025 18:37:33.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <williamns55> pq no se unen pa llamada en el dc
-[26May2025 18:37:42.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <zpekenoeduin> ya
-[26May2025 18:37:56.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yonexxNTw> esq ando viendo el tiktok pero yavoy
-[26May2025 18:38:36.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <zpekenoeduin> ya entre soy massimo
-[26May2025 18:38:52.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yonexxNTw> nadie habla
-[26May2025 18:38:56.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yonexxNTw> XDFIREJEQIR
-[26May2025 18:40:37.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yonexxNTw> si
-[26May2025 18:42:10.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yonexxNTw> qn m da cuero
-[26May2025 18:42:18.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yonexxNTw> si
-[26May2025 18:42:55.472] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: williamns55 lost connection: Timed out
-[26May2025 18:42:55.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 left the game
-[26May2025 18:42:55.476] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client williamns55
-[26May2025 18:43:04.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zpekenoeduin has made the advancement [Monster Hunter]
-[26May2025 18:43:09.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> regresate a la casa vamos a ir a una cueva de un mod
-[26May2025 18:43:18.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> vente crack
-[26May2025 18:43:37.080] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: williamns55[/127.203.161.117:37435] logged in with entity id 1517 at (268.68468945643946, 63.0, 655.9822203094509)
-[26May2025 18:43:37.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 joined the game
-[26May2025 18:43:37.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yonexxNTw> masimo
-[26May2025 18:43:38.030] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of williamns55 (18)
-[26May2025 18:43:38.031] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to williamns55
-[26May2025 18:43:41.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <zpekenoeduin> q
-[26May2025 18:43:46.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yonexxNTw> vienes oq
-[26May2025 18:43:54.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <zpekenoeduin> a donde
-[26May2025 18:44:22.224] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: williamns55 lost connection: Timed out
-[26May2025 18:44:22.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 left the game
-[26May2025 18:44:22.226] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client williamns55
-[26May2025 18:44:36.919] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: zpekenoeduin lost connection: Timed out
-[26May2025 18:44:36.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zpekenoeduin left the game
-[26May2025 18:44:36.919] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client zpekenoeduin
-[26May2025 18:44:56.976] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: zpekenoeduin[/127.72.160.8:44521] logged in with entity id 1827 at (271.0021091387099, 63.0, 644.1394743710562)
-[26May2025 18:44:56.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zpekenoeduin joined the game
-[26May2025 18:44:57.449] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of zpekenoeduin (18)
-[26May2025 18:44:57.449] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to zpekenoeduin
-[26May2025 18:45:13.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PiscesLivie> vamos o que
-[26May2025 18:45:45.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yonexxNTw> maximo
-[26May2025 18:45:52.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <zpekenoeduin> qeu
-[26May2025 18:45:55.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yonexxNTw> ven
-[26May2025 18:45:59.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <zpekenoeduin> yo cuido la casa
-[26May2025 18:46:00.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yonexxNTw> al bioma
-[26May2025 18:46:03.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yonexxNTw> ok
-[26May2025 18:46:11.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <zpekenoeduin> recien entre no tengo cosas
-[26May2025 18:48:36.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [Hot Stuff]
-[26May2025 18:51:07.494] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: williamns55[/127.203.161.117:51633] logged in with entity id 5802 at (268.68468945643946, 63.0, 655.9822203094509)
-[26May2025 18:51:07.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 joined the game
-[26May2025 18:51:11.087] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of williamns55 (18)
-[26May2025 18:51:11.088] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to williamns55
-[26May2025 18:51:18.736] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2423ms or 48 ticks behind
-[26May2025 18:51:18.777] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -7.705219960213668,0.0,6.984211579152543
-[26May2025 18:51:18.778] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -8.001574574451922,0.0,7.252835101775645
-[26May2025 18:51:18.779] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -8.29792918869856,0.0,7.52145862440625
-[26May2025 18:51:18.779] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -8.59428380295276,0.0,7.790082147043677
-[26May2025 18:51:18.780] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -8.89063841721378,0.0,8.05870566968747
-[26May2025 18:51:18.780] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -9.18699303148091,0.0,8.32732919233672
-[26May2025 18:51:18.781] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -9.483347645753554,0.0,8.595952714990972
-[26May2025 18:51:18.782] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -9.779702260031172,0.0,8.864576237649771
-[26May2025 18:51:18.783] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -10.076056874313252,0.0,9.133199760312664
-[26May2025 18:51:18.783] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -10.372411488599369,0.0,9.401823282979194
-[26May2025 18:51:18.784] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -10.668766102889094,0.0,9.670446805648908
-[26May2025 18:51:18.784] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -10.96512071718206,0.0,9.939070328321577
-[26May2025 18:51:18.785] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -11.261475331477953,0.0,10.207693850996975
-[26May2025 18:51:18.786] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -11.55782994577649,0.0,10.476317373674647
-[26May2025 18:51:18.786] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -11.854184560077414,0.0,10.744940896354592
-[26May2025 18:51:18.787] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -12.15053917438047,0.0,11.013564419036356
-[26May2025 18:51:18.788] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -12.446893788685458,0.0,11.28218794171994
-[26May2025 18:51:18.788] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -12.743248402992151,0.0,11.550811464405115
-[26May2025 18:51:18.789] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -13.039603017300408,0.0,11.819434987091654
-[26May2025 18:51:18.789] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -13.335957631610086,0.0,12.088058509779557
-[26May2025 18:51:18.790] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -13.632312245921014,0.0,12.356682032468598
-[26May2025 18:51:18.790] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -13.92866686023308,0.0,12.625305555158548
-[26May2025 18:51:18.791] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -14.225021474546168,0.0,12.893929077849407
-[26May2025 18:51:18.792] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -14.521376088860166,0.0,13.162552600541176
-[26May2025 18:51:18.792] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -14.817730703174988,0.0,13.431176123233627
-[26May2025 18:51:18.829] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of yonexxNTw) moved too quickly! -7.705219971505784,0.0,6.984211589388906
-[26May2025 18:52:21.375] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PiscesLivie) moved wrongly! 0.33862253699021494
-[26May2025 18:52:21.494] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PiscesLivie) moved wrongly! 0.43943474456648346
-[26May2025 18:54:07.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported williamns55 to PiscesLivie]
-[26May2025 18:54:23.097] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PiscesLivie) moved wrongly! 0.33178529591259576
-[26May2025 18:58:05.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has reached the goal [Beyond the Sea]
-[26May2025 18:58:57.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 has reached the goal [Beyond the Sea]
-[26May2025 18:59:05.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has reached the goal [Beyond the Sea]
-[26May2025 19:03:28.729] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: zpekenoeduin lost connection: Disconnected
-[26May2025 19:03:28.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zpekenoeduin left the game
-[26May2025 19:03:28.730] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client zpekenoeduin
-[26May2025 19:05:18.531] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: zpekenoeduin[/127.72.160.8:47853] logged in with entity id 15453 at (282.04471286199674, 63.0, 625.0323432447165)
-[26May2025 19:05:18.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zpekenoeduin joined the game
-[26May2025 19:05:19.544] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of zpekenoeduin (18)
-[26May2025 19:05:19.545] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to zpekenoeduin
-[26May2025 19:05:48.624] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: zpekenoeduin lost connection: Timed out
-[26May2025 19:05:48.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zpekenoeduin left the game
-[26May2025 19:05:48.625] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client zpekenoeduin
-[26May2025 19:06:46.077] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: zpekenoeduin[/127.72.160.8:34751] logged in with entity id 15921 at (282.04471286199674, 63.0, 625.0323432447165)
-[26May2025 19:06:46.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zpekenoeduin joined the game
-[26May2025 19:06:48.209] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of zpekenoeduin (18)
-[26May2025 19:06:48.209] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to zpekenoeduin
-[26May2025 19:06:54.179] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: williamns55 lost connection: Timed out
-[26May2025 19:06:54.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 left the game
-[26May2025 19:06:54.179] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client williamns55
-[26May2025 19:07:16.173] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: zpekenoeduin lost connection: Timed out
-[26May2025 19:07:16.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zpekenoeduin left the game
-[26May2025 19:07:16.173] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client zpekenoeduin
-[26May2025 19:07:34.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [Another Kind of Slime]
-[26May2025 19:08:19.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie discovered the floor was lava
-[26May2025 19:08:42.628] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: zpekenoeduin[/127.72.160.8:42601] logged in with entity id 16705 at (282.04471286199674, 63.0, 625.0323432447165)
-[26May2025 19:08:42.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zpekenoeduin joined the game
-[26May2025 19:08:43.388] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of zpekenoeduin (18)
-[26May2025 19:08:43.389] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to zpekenoeduin
-[26May2025 19:09:12.727] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: zpekenoeduin lost connection: Timed out
-[26May2025 19:09:12.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zpekenoeduin left the game
-[26May2025 19:09:12.728] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client zpekenoeduin
-[26May2025 19:10:32.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to yonexxNTw]
-[26May2025 19:11:19.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Creative Mode]
-[26May2025 19:11:54.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [The Cyclops]
-[26May2025 19:12:14.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [The Cyclops]
-[26May2025 19:12:33.774] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: williamns55[/127.203.161.117:51307] logged in with entity id 17451 at (-2129.5563669022554, 63.14150320667355, 2122.61261102031)
-[26May2025 19:12:33.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 joined the game
-[26May2025 19:12:38.520] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of williamns55 (18)
-[26May2025 19:12:38.521] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to williamns55
-[26May2025 19:12:48.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Survival Mode]
-[26May2025 19:13:17.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has reached the goal [Captain Nemo]
-[26May2025 19:13:33.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has reached the goal [Captain Nemo]
-[26May2025 19:13:43.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <williamns55> olo
-[26May2025 19:14:42.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [Shell City]
-[26May2025 19:15:37.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <williamns55> yo q
-[26May2025 19:15:40.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yonexxNTw> willi
-[26May2025 19:16:06.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported williamns55 to PiscesLivie]
-[26May2025 19:16:28.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 has made the advancement [The Cyclops]
-[26May2025 19:16:34.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [The Shadow Over Mine's Craft]
-[26May2025 19:17:43.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [Diamonds of the Sea]
-[26May2025 19:17:44.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [Catching Flakes]
-[26May2025 19:17:57.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to yonexxNTw]
-[26May2025 19:17:57.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Shell City]
-[26May2025 19:18:05.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported williamns55 to PiscesLivie]
-[26May2025 19:18:05.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 has made the advancement [Shell City]
-[26May2025 19:18:25.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Catching Flakes]
-[26May2025 19:21:03.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie drowned
-[26May2025 19:21:12.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to -2152.500000, -42.000000, 2083.500000]
-[26May2025 19:21:37.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw was slain by Hullbreaker
-[26May2025 19:21:59.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported yonexxNTw to PiscesLivie]
-[26May2025 19:22:36.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported yonexxNTw to PiscesLivie]
-[26May2025 19:23:06.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Creative Mode]
-[26May2025 19:23:45.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Survival Mode]
-[26May2025 19:24:03.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 has reached the goal [Captain Nemo]
-[26May2025 19:25:34.976] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: williamns55 lost connection: Timed out
-[26May2025 19:25:34.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 left the game
-[26May2025 19:25:34.976] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client williamns55
-[26May2025 19:26:18.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [The Shadow Over Mine's Craft]
-[26May2025 19:26:27.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw was blown up by Mine Guardian
-[26May2025 19:27:20.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported yonexxNTw to PiscesLivie]
-[26May2025 19:29:01.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw was slain by Drowned
-[26May2025 19:29:40.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported yonexxNTw to PiscesLivie]
-[26May2025 19:31:48.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw was slain by Hullbreaker
-[26May2025 19:32:00.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Made yonexxNTw a server operator]
-[26May2025 19:32:10.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yonexxNTw: Teleported yonexxNTw to PiscesLivie]
-[26May2025 19:32:21.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yonexxNTw: Set own game mode to Creative Mode]
-[26May2025 19:34:01.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw fell out of the world
-[26May2025 19:34:13.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yonexxNTw: Teleported yonexxNTw to PiscesLivie]
-[26May2025 19:39:05.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Bring Forth The Mollusk]
-[26May2025 19:39:19.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Diamonds of the Sea]
-[26May2025 19:43:06.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie drowned
-[26May2025 19:44:12.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to -2181.000000, -48.000000, 2064.000000]
-[26May2025 19:44:29.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Creative Mode]
-[26May2025 19:44:48.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Survival Mode]
-[26May2025 19:45:59.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yonexxNTw: Set own game mode to Survival Mode]
-[26May2025 19:46:49.479] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: williamns55[/127.203.161.117:59055] logged in with entity id 28189 at (-2140.617874256544, 61.74882923018809, 2093.796735551579)
-[26May2025 19:46:49.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 joined the game
-[26May2025 19:46:53.106] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of williamns55 (18)
-[26May2025 19:46:53.107] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to williamns55
-[26May2025 19:48:27.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yonexxNTw> holi
-[26May2025 19:49:07.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 265.000000, 64.000000, 653.000000]
-[26May2025 19:49:18.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported williamns55 to PiscesLivie]
-[26May2025 19:49:21.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yonexxNTw: Teleported yonexxNTw to PiscesLivie]
+[26May2025 20:11:07.056] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[26May2025 20:11:07.316] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[26May2025 20:11:07.317] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[26May2025 20:11:09.817] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[26May2025 20:11:09.923] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[26May2025 20:11:10.033] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[26May2025 20:11:10.040] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[26May2025 20:11:10.041] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[26May2025 20:11:10.041] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[26May2025 20:11:10.276] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[26May2025 20:11:10.574] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[26May2025 20:11:10.575] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[26May2025 20:11:10.575] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[26May2025 20:11:10.576] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[26May2025 20:11:10.990] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.30 Target: null
+[26May2025 20:11:10.992] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[26May2025 20:11:11.178] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[26May2025 20:11:11.178] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[26May2025 20:11:11.278] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.24 Target: null
+[26May2025 20:11:13.619] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[26May2025 20:11:15.605] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Til-n/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23139!/assets/.mcassetsroot' uses unexpected schema
+[26May2025 20:11:15.605] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Til-n/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23139!/data/.mcassetsroot' uses unexpected schema
+[26May2025 20:11:17.517] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
+[26May2025 20:11:17.521] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[26May2025 20:11:17.521] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[26May2025 20:11:17.539] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[26May2025 20:11:17.540] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[26May2025 20:11:17.541] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[26May2025 20:11:17.541] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[26May2025 20:11:17.542] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[26May2025 20:11:17.542] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[26May2025 20:11:17.543] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[26May2025 20:11:17.543] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[26May2025 20:11:17.544] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[26May2025 20:11:17.544] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
+[26May2025 20:11:17.544] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[26May2025 20:11:17.719] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag cataclysm:sunken_city_avoid as it is missing following references: minecraft:monument (from L_Enders_Cataclysm-1.13 Terror Of The Abyss Update-1.20.1.jar)
+[26May2025 20:11:19.048] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 16 recipes
+[26May2025 20:11:19.237] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1934 advancements
+[26May2025 20:11:19.241] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[26May2025 20:11:20.926] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[26May2025 20:11:20.928] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[26May2025 20:11:20.928] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[26May2025 20:11:20.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[26May2025 20:11:21.173] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[26May2025 20:11:21.251] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[26May2025 20:11:21.359] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[26May2025 20:11:21.359] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[26May2025 20:11:21.359] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[26May2025 20:11:21.360] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[26May2025 20:11:21.453] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[26May2025 20:11:21.454] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
+[26May2025 20:11:21.454] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
+[26May2025 20:11:21.455] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[26May2025 20:11:21.455] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
+[26May2025 20:11:21.457] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[26May2025 20:11:21.457] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
+[26May2025 20:11:21.457] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
+[26May2025 20:11:21.458] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[26May2025 20:11:21.458] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
+[26May2025 20:11:21.465] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[26May2025 20:11:24.575] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[26May2025 20:11:25.440] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[26May2025 20:11:25.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[26May2025 20:11:26.082] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[26May2025 20:11:28.938] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[26May2025 20:11:30.368] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26May2025 20:11:30.390] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26May2025 20:11:30.401] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26May2025 20:11:30.419] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26May2025 20:11:30.449] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26May2025 20:11:30.490] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26May2025 20:11:30.525] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26May2025 20:11:30.556] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26May2025 20:11:30.581] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26May2025 20:11:30.637] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26May2025 20:11:30.854] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26May2025 20:11:31.571] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26May2025 20:11:31.853] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26May2025 20:11:32.351] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[26May2025 20:11:32.751] [Netty Epoll Server IO #6/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[26May2025 20:11:32.851] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
+[26May2025 20:11:33.351] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[26May2025 20:11:33.556] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7705 ms
+[26May2025 20:11:33.557] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.143s)! For help, type "help"
+[26May2025 20:11:33.643] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[26May2025 20:11:33.647] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[26May2025 20:11:33.662] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[26May2025 20:11:45.350] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: williamns55[/127.203.161.117:44941] logged in with entity id 122 at (285.95606433934734, 63.0, 639.8010909084632)
+[26May2025 20:11:45.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 joined the game
+[26May2025 20:11:47.966] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of williamns55 (18)
+[26May2025 20:11:47.968] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to williamns55
+[26May2025 20:11:47.976] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2615ms or 52 ticks behind
+[26May2025 20:12:25.737] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@11a357eb[id=<null>,name=yonexxNTw,properties={},legacy=false] (/127.108.138.5:39679) lost connection: Disconnected
+[26May2025 20:12:31.701] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yonexxNTw[/127.108.138.5:34491] logged in with entity id 464 at (1172.699999988079, 119.0, -296.46421400940665)
+[26May2025 20:12:31.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw joined the game
+[26May2025 20:12:34.684] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of yonexxNTw (18)
+[26May2025 20:12:34.684] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to yonexxNTw
+[26May2025 20:12:34.723] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2961ms or 59 ticks behind
+[26May2025 20:13:15.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yonexxNTw: Set own game mode to Creative Mode]
+[26May2025 20:13:44.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [Cobweb Entanglement]
+[26May2025 20:14:22.109] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yonexxNTw moved too quickly! 10.862185795050891,0.3284872141285291,0.755908930335977
+[26May2025 20:14:38.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yonexxNTw: Set own game mode to Survival Mode]
+[26May2025 20:15:58.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yonexxNTw: Set own game mode to Creative Mode]
+[26May2025 20:16:20.033] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yonexxNTw moved too quickly! 9.748193578600421,-3.3729799664814095,-1.0063744127910468
+[26May2025 20:17:08.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yonexxNTw: Set own game mode to Survival Mode]
+[26May2025 20:17:42.676] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@67c6a0ec[id=<null>,name=PiscesLivie,properties={},legacy=false] (/127.38.242.173:56259) lost connection: Disconnected
+[26May2025 20:17:48.497] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PiscesLivie[/127.38.242.173:46423] logged in with entity id 7060 at (260.4765182088855, 63.0, 651.5328759668506)
+[26May2025 20:17:48.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie joined the game
+[26May2025 20:17:48.830] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of PiscesLivie (18)
+[26May2025 20:17:48.831] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to PiscesLivie
+[26May2025 20:17:58.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to yonexxNTw]
+[26May2025 20:18:10.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported williamns55 to PiscesLivie]
+[26May2025 20:20:26.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 has made the advancement [Not Today, Thank You]
+[26May2025 20:24:34.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [Unknown Technology]
+[26May2025 20:24:42.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 4172.000000, 111.000000, -1011.000000]
+[26May2025 20:24:50.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported williamns55 to PiscesLivie]
+[26May2025 20:27:02.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported williamns55 to PiscesLivie]
+[26May2025 20:27:23.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to yonexxNTw]
+[26May2025 20:27:24.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported williamns55 to PiscesLivie]
+[26May2025 20:27:31.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has reached the goal [Pure Imagination]
+[26May2025 20:27:32.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has reached the goal [Pure Imagination]
+[26May2025 20:27:35.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 has reached the goal [Pure Imagination]
+[26May2025 20:27:40.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 has made the advancement [Choc-o-Block]
+[26May2025 20:28:06.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Choc-o-Block]
+[26May2025 20:28:40.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 fell from a high place
+[26May2025 20:28:44.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported williamns55 to PiscesLivie]
+[26May2025 20:28:58.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [Unwrapped Candy]
+[26May2025 20:30:12.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Unwrapped Candy]
+[26May2025 20:30:17.426] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: williamns55 lost connection: Disconnected
+[26May2025 20:30:17.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williamns55 left the game
+[26May2025 20:30:17.429] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client williamns55
+[26May2025 20:30:17.478] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[26May2025 20:30:41.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [I Found the Coin Slot]
+[26May2025 20:30:55.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yonexxNTw has made the advancement [Yellow Brick Road]

@@ -19,12 +19,16 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2025-05-26 20:25:47 +0000",
+      "minecraft:taiga": "2025-05-26 20:23:36 +0000",
       "minecraft:beach": "2025-05-26 18:54:38 +0000",
       "minecraft:river": "2025-05-26 18:13:09 +0000",
       "minecraft:stony_shore": "2025-05-26 16:17:58 +0000",
+      "minecraft:grove": "2025-05-26 20:27:02 +0000",
       "minecraft:cold_ocean": "2025-05-26 18:13:14 +0000",
       "minecraft:forest": "2025-05-26 16:13:55 +0000",
       "minecraft:deep_cold_ocean": "2025-05-26 18:57:37 +0000",
+      "minecraft:frozen_peaks": "2025-05-26 20:27:03 +0000",
       "minecraft:meadow": "2025-05-26 17:13:38 +0000",
       "minecraft:plains": "2025-05-26 16:11:48 +0000"
     },
@@ -611,7 +615,8 @@
       "cooked_mutton": "2025-05-26 16:48:47 +0000",
       "beef": "2025-05-26 16:30:08 +0000",
       "apple": "2025-05-26 16:35:28 +0000",
-      "bread": "2025-05-26 16:58:21 +0000"
+      "bread": "2025-05-26 16:58:21 +0000",
+      "suspicious_stew": "2025-05-26 19:58:49 +0000"
     },
     "done": false
   },
@@ -1475,6 +1480,90 @@
   "alexscaves:alexscaves/ride_submarine": {
     "criteria": {
       "ride_a_boat_with_a_goat": "2025-05-26 19:24:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2025-05-26 19:58:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-05-26 20:02:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2025-05-26 20:02:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2025-05-26 20:20:38 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/discover_candy_cavity": {
+    "criteria": {
+      "discover": "2025-05-26 20:27:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-05-26 20:20:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-05-26 20:12:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-05-26 20:19:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-05-26 20:19:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-05-26 20:19:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-05-26 20:12:16 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/eat_block_of_chocolate": {
+    "criteria": {
+      "eat_block_of_chocolate": "2025-05-26 20:27:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-05-26 20:19:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-05-26 20:19:06 +0000"
     },
     "done": true
   },
