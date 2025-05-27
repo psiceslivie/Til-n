@@ -27,6 +27,7 @@
       "minecraft:beach": "2025-05-26 18:49:32 +0000",
       "minecraft:mangrove_swamp": "2025-05-27 13:31:28 +0000",
       "minecraft:river": "2025-05-26 15:17:37 +0000",
+      "minecraft:lukewarm_ocean": "2025-05-27 13:44:40 +0000",
       "minecraft:stony_shore": "2025-05-26 13:34:00 +0000",
       "minecraft:grove": "2025-05-26 15:03:42 +0000",
       "minecraft:swamp": "2025-05-27 13:30:44 +0000",
@@ -36,9 +37,12 @@
       "minecraft:deep_cold_ocean": "2025-05-26 18:50:24 +0000",
       "minecraft:ocean": "2025-05-26 14:14:31 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-05-27 13:23:48 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-05-27 13:47:41 +0000",
+      "minecraft:flower_forest": "2025-05-27 13:43:37 +0000",
       "minecraft:frozen_peaks": "2025-05-26 20:27:03 +0000",
       "minecraft:deep_dark": "2025-05-26 14:01:14 +0000",
       "minecraft:meadow": "2025-05-26 13:22:01 +0000",
+      "minecraft:savanna": "2025-05-27 13:44:36 +0000",
       "minecraft:plains": "2025-05-25 00:47:51 +0000"
     },
     "done": false
@@ -261,6 +265,8 @@
       "apple": "2025-05-26 13:39:22 +0000",
       "bread": "2025-05-26 13:20:38 +0000",
       "cookie": "2025-05-26 21:24:38 +0000",
+      "glow_berries": "2025-05-27 13:50:28 +0000",
+      "salmon": "2025-05-27 13:43:55 +0000",
       "carrot": "2025-05-26 13:36:15 +0000"
     },
     "done": false
@@ -2365,9 +2371,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-27 13:48:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_cod_from_smoking": {
     "criteria": {
       "has_cod": "2025-05-27 13:37:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-27 13:48:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-27 13:48:19 +0000"
     },
     "done": true
   },
@@ -2377,9 +2401,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-27 13:48:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon": {
     "criteria": {
       "has_salmon": "2025-05-27 13:37:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-05-27 13:48:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-27 13:48:19 +0000"
     },
     "done": true
   },
@@ -2401,15 +2443,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-27 13:48:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-27 13:48:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
       "has_salmon": "2025-05-27 13:37:19 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-27 13:48:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
     "criteria": {
       "has_mangrove_roots": "2025-05-27 13:31:39 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_sunken_city": {
+    "criteria": {
+      "factory": "2025-05-27 13:44:40 +0000"
     },
     "done": true
   },
