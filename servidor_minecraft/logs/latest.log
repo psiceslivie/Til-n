@@ -105,3 +105,25 @@
 [27May2025 03:25:36.409] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: williams lost connection: Disconnected
 [27May2025 03:25:36.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williams left the game
 [27May2025 03:25:36.413] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client williams
+[27May2025 03:30:36.715] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: williams[/127.203.161.117:57165] logged in with entity id 264 at (-9.5, 92.0, 9.5)
+[27May2025 03:30:36.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williams joined the game
+[27May2025 03:30:39.309] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of williams (18)
+[27May2025 03:30:39.310] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to williams
+[27May2025 03:31:13.009] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: williams lost connection: Disconnected
+[27May2025 03:31:13.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williams left the game
+[27May2025 03:31:13.010] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client williams
+[27May2025 03:31:44.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[27May2025 03:31:44.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: STOP<--[HERE]
+[27May2025 03:31:47.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[27May2025 03:31:47.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[27May2025 03:31:47.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[27May2025 03:31:47.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[27May2025 03:31:47.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[27May2025 03:31:47.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[27May2025 03:31:47.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[27May2025 03:31:47.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[27May2025 03:31:47.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[27May2025 03:31:47.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[27May2025 03:31:47.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[27May2025 03:31:47.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[27May2025 03:31:47.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
