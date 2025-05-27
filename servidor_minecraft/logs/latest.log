@@ -101,3 +101,24 @@
 [27May2025 13:13:09.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Survival Mode]
 [27May2025 13:13:17.569] [Server thread/INFO] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Found alexscaves:magnetic_caves at 4956 -56 1293 in 1s
 [27May2025 13:15:15.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [A Seedy Place]
+[27May2025 13:19:16.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 499.000000, 78.000000, 952.000000]
+[27May2025 13:22:20.669] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: williams[/127.203.161.117:56497] logged in with entity id 4304 at (-9.5, 92.0, 9.5)
+[27May2025 13:22:20.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williams joined the game
+[27May2025 13:22:23.470] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of williams (18)
+[27May2025 13:22:23.471] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to williams
+[27May2025 13:22:48.870] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: williams lost connection: Disconnected
+[27May2025 13:22:48.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: williams left the game
+[27May2025 13:22:48.872] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client williams
+[27May2025 13:23:47.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 577.000000, 80.000000, 1283.000000]
+[27May2025 13:23:57.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 658.000000, 68.000000, 1369.000000]
+[27May2025 13:25:34.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 1036.000000, 63.000000, 1495.000000]
+[27May2025 13:26:14.778] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/6756, l='ServerLevel[world]', x=1377.63, y=59.95, z=1345.28] died, message: 'Villager tried to swim in lava'
+[27May2025 13:26:50.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 1415.000000, 94.000000, 1534.000000]
+[27May2025 13:28:41.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 1973.000000, 67.000000, 1421.000000]
+[27May2025 13:30:17.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 2145.000000, 96.000000, 1472.000000]
+[27May2025 13:34:39.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 2782.000000, 70.000000, 1454.000000]
+[27May2025 13:34:58.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 2850.000000, 64.000000, 1591.000000]
+[27May2025 13:43:45.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 3594.000000, 76.000000, 1448.000000]
+[27May2025 13:44:39.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 3900.000000, 103.000000, 1421.000000]
+[27May2025 13:44:40.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PiscesLivie has made the advancement [Sunken City]
+[27May2025 13:44:48.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 3877.000000, 63.000000, 1438.000000]
