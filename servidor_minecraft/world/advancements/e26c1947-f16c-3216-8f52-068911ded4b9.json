@@ -29,6 +29,7 @@
       "minecraft:river": "2025-05-26 15:17:37 +0000",
       "minecraft:lukewarm_ocean": "2025-05-27 13:44:40 +0000",
       "minecraft:stony_shore": "2025-05-26 13:34:00 +0000",
+      "minecraft:dripstone_caves": "2025-05-27 14:00:32 +0000",
       "minecraft:grove": "2025-05-26 15:03:42 +0000",
       "minecraft:swamp": "2025-05-27 13:30:44 +0000",
       "minecraft:jagged_peaks": "2025-05-25 00:49:03 +0000",
@@ -36,6 +37,7 @@
       "minecraft:forest": "2025-05-25 01:31:49 +0000",
       "minecraft:deep_cold_ocean": "2025-05-26 18:50:24 +0000",
       "minecraft:ocean": "2025-05-26 14:14:31 +0000",
+      "minecraft:jungle": "2025-05-27 13:58:40 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-05-27 13:23:48 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-05-27 13:47:41 +0000",
       "minecraft:flower_forest": "2025-05-27 13:43:37 +0000",
@@ -267,6 +269,7 @@
       "cookie": "2025-05-26 21:24:38 +0000",
       "glow_berries": "2025-05-27 13:50:28 +0000",
       "salmon": "2025-05-27 13:43:55 +0000",
+      "cod": "2025-05-27 14:01:38 +0000",
       "carrot": "2025-05-26 13:36:15 +0000"
     },
     "done": false
@@ -2419,6 +2422,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2025-05-27 14:09:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2025-05-27 13:48:19 +0000"
@@ -2428,6 +2437,12 @@
   "minecraft:recipes/misc/conduit": {
     "criteria": {
       "has_nautilus_shell": "2025-05-27 13:39:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2025-05-27 14:09:51 +0000"
     },
     "done": true
   },
@@ -2479,6 +2494,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2025-05-27 14:01:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
     "criteria": {
       "has_cod": "2025-05-27 13:37:19 +0000"
@@ -2500,6 +2521,12 @@
   "minecraft:recipes/food/cooked_cod": {
     "criteria": {
       "has_cod": "2025-05-27 13:37:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2025-05-27 14:09:51 +0000"
     },
     "done": true
   },

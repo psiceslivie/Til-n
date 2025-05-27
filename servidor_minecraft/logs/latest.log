@@ -130,3 +130,11 @@
 [27May2025 13:55:36.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 3989.500000, 65.000000, 1534.500000]
 [27May2025 13:55:39.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Creative Mode]
 [27May2025 13:56:05.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Set own game mode to Survival Mode]
+[27May2025 13:56:43.246] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[27May2025 13:58:26.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 4544.000000, 64.000000, 1471.000000]
+[27May2025 14:01:11.414] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[27May2025 14:02:57.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 4874.000000, -34.000000, 1382.000000]
+[27May2025 14:04:33.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 4873.000000, -40.000000, 1382.000000]
+[27May2025 14:04:38.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 4904.000000, -52.000000, 1385.000000]
+[27May2025 14:07:42.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 5049.000000, -50.000000, 1390.000000]
+[27May2025 14:08:12.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PiscesLivie: Teleported PiscesLivie to 4855.000000, -33.000000, 1342.000000]
